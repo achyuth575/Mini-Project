@@ -103,7 +103,7 @@ class TaskManager:
             print(f"- {task}")
 
 # Command-line interface
-if _name_ == "_main_":
+if __name__ == "__main__":
     task_manager = TaskManager()
 
     while True:
